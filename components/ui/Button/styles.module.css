@@ -1,0 +1,65 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary {
+  width: 276px;
+  height: 44px;
+  background: #00aad4;
+  color: #fff;
+}
+.primary:hover {
+  background: #0095ba;
+}
+
+.filter {
+  background: #00aad4;
+  color: #fff;
+  width: 156px;
+  height: 44px;
+}
+.filter:hover {
+  background: #0095ba;
+}
+
+.secondary {
+  background: #00aad4;
+  color: #fff;
+  width: 244px;
+  height: 44px;
+}
+.secondary:hover {
+  background: #0095ba;
+}
+
+.ghost {
+  border: 1px solid #00aad4;
+  width: 156px;
+  height: 44px;
+  color: #101828;
+  width: 156px;
+  height: 44px;
+}
+.ghost:hover {
+  border: 1px solid #0095ba;
+}
+
+.action {
+  background: #00aad4;
+  color: #fff;
+  width: 576px;
+  height: 44px;
+}
+
+.action:hover {
+  background: #0095ba;
+}

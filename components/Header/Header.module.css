@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #00aad4;
+}
+
+.activeLink {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #00aad4;
+}

@@ -1,0 +1,62 @@
+.container {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(276px, 1fr));
+  column-gap: 32px;
+  row-gap: 48px;
+  margin-top: 20px;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.infoMessage {
+  text-align: center;
+  font-size: 16px;
+  color: #121417;
+  margin-top: 60px;
+}
+
+.errorMessage {
+  text-align: center;
+  font-size: 16px;
+  color: #ff3b30;
+  margin-top: 60px;
+}
+.noCarsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.noCarsTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 12px;
+}
+
+.noCarsText {
+  font-size: 16px;
+  color: #101828;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}

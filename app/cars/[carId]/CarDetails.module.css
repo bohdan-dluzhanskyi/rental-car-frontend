@@ -1,0 +1,114 @@
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Робимо 2 стовпчики: лівий великий, правий менший */
+  gap: 40px;
+}
+
+@media (max-width: 968px) {
+  .layout {
+    grid-template-columns: 1fr; /* На планшетах і мобілках форма падає вниз */
+  }
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #f3f3f2;
+  margin-bottom: 24px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #121417;
+  margin: 0 0 16px 0;
+}
+
+.model {
+  color: #3470ff;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(18, 20, 23, 0.8);
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #121417;
+  margin: 0 0 16px 0;
+  border-bottom: 1px solid #e5e5e7;
+  padding-bottom: 8px;
+}
+
+.techSpecs,
+.featuresBlock,
+.conditionsBlock {
+  margin-bottom: 32px;
+}
+
+.specsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.specsList li {
+  font-size: 15px;
+  color: #121417;
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.featureTag {
+  background-color: rgba(52, 112, 255, 0.05);
+  color: #3470ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.conditionsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.conditionTag {
+  background-color: #f7f7fb;
+  color: #121417;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: 1px solid #e5e5e7;
+}
+
+.message,
+.errorMessage {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 100px;
+  color: #8a8a89;
+}
+
+.errorMessage {
+  color: #ff3b30;
+}
